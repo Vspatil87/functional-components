@@ -1,0 +1,23 @@
+<div class="loop-performance-card">
+    <h3>Loop Performance Results</h3>
+    <table class="loop-performance-table">
+        <thead>
+            <tr>
+                <th>Loop Type</th>
+                <th>Milliseconds</th>
+                <th>Seconds</th>
+                <th>Round of Milliseconds</th>
+                <th>Round of Seconds</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let result of results">
+                <td>{{ result.loopType }}</td>
+                <td>{{ result.milliseconds }}</td>
+                <td>{{ result.seconds }}</td>
+                <td>{{ result.roundOfMs }}</td>
+                <td>{{ result.roundOfS }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
