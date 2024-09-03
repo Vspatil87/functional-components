@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
 
+## Project Overview
+
+This project is a simple Angular application that demonstrates the different functionalities which are not inter related but can be used in any other projects or we can just refer them for the information.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
